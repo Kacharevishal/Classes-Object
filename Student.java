@@ -1,25 +1,26 @@
-package oopConcept;
+package practice16;
 
 public class Student {
 	
-	public int stdId;
-	public String stdName;
-	public int stdAge;
-	
-	
-	public void stdLearning()
-	{
-		System.out.println("Student is Learning...");
-	}
-	
-	public void stdWriting()
-	{
-		System.out.println("Student is Writing...");
-	}
-	
-	public void stdLooking()
-	{
-		System.out.println("Student is Looking...");
-	}
+	int stdId;
+	String stdName;
+	String stdCity;
+    char stdDiv;
+    double stdFees;
+    
+    public void stdSchoolTime()
+    {
+     	System.out.println("Students School Time from 10am To 5pm");
+    }
+    
+    public void stdLunchTime()
+    {
+    	    System.out.println("Students Lunch Time is 2pm");
+    }
+    
+    public void stdPlayingTime()
+    {
+      	System.out.println("Student Playing Time is 4pm");
+    }
 
 }
